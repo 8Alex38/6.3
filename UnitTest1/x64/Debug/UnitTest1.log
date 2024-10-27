@@ -1,0 +1,44 @@
+﻿  UnitTest1.cpp
+C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(39,14): error C2440: delete: невозможно преобразовать "std::vector<int,std::allocator<int>>" в "void*"
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(39,14):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  
+C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(17,33): error C2660: sumOfOddElements: функция не принимает 2 аргументов
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(15,5):
+       см. объявление "sumOfOddElements"
+      C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(17,33):
+      при попытке сопоставить список аргументов "(int [5], int)"
+  
+C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(21,33): error C2660: sumOfOddElements: функция не принимает 2 аргументов
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(15,5):
+       см. объявление "sumOfOddElements"
+      C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(21,33):
+      при попытке сопоставить список аргументов "(int [4], int)"
+  
+C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(25,34): error C2660: sumOfOddElements: функция не принимает 2 аргументов
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(15,5):
+       см. объявление "sumOfOddElements"
+      C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(25,34):
+      при попытке сопоставить список аргументов "(int [5], int)"
+  
+C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(29,33): error C2660: sumOfOddElements: функция не принимает 2 аргументов
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(15,5):
+       см. объявление "sumOfOddElements"
+      C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(29,33):
+      при попытке сопоставить список аргументов "(int [5], int)"
+  
+C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(32,17): error C2466: невозможно выделить память для массива постоянного нулевого размера
+  (компиляция исходного файла "/UnitTest1.cpp")
+  
+C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(33,33): error C2660: sumOfOddElements: функция не принимает 2 аргументов
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\se641\source\repos\6.3\6.3\6.3.cpp(15,5):
+       см. объявление "sumOfOddElements"
+      C:\Users\se641\source\repos\6.3\UnitTest1\UnitTest1.cpp(33,33):
+      при попытке сопоставить список аргументов "(int [1], int)"
+  
