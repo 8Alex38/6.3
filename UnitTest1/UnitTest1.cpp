@@ -5,36 +5,38 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest1
 {
-    TEST_CLASS(SumOfOddElementsTest)
+    TEST_CLASS(UnitTest1)
     {
     public:
 
-        TEST_METHOD(TestEmptyVector)
+        TEST_METHOD(TestSumArray)
         {
-            vector<int> emptyVector;
-            int result = sumOfOddElements(emptyVector);
-            Assert::AreEqual(0, result);
+            int arr[] = { 1, 2, 3, 4, 5 };
+            int expectedSum = 15;
+            int actualSum = sumArray(arr, 5);
+            Assert::IsTrue(expectedSum == actualSum);
         }
 
-        TEST_METHOD(TestAllEvenVector)
+        TEST_METHOD(TestFindMax)
         {
-            vector<int> allEvenVector = { 2, 4, 6, 8 };
-            int result = sumOfOddElements(allEvenVector);
-            Assert::AreEqual(0, result);
+            int arr[] = { 1, 3, 5, 2, 4 };
+            int expectedMax = 5;
+            int actualMax = findMax(arr, 5);
+            Assert::IsTrue(expectedMax == actualMax);
         }
 
-        TEST_METHOD(TestAllOddVector)
+        TEST_METHOD(TestIncrementArrayElements)
         {
-            vector<int> allOddVector = { 1, 3, 5, 7 };
-            int result = sumOfOddElements(allOddVector);
-            Assert::AreEqual(16, result);
+            int arr[] = { 1, 2, 3 };
+            int expectedArr[] = { 2, 3, 4 };
+            incrementArrayElements(arr, 3);
+            for (int i = 0; i < 3; i++) {
+                Assert::IsTrue(expectedArr[i] == arr[i]);
+            }
         }
 
-        TEST_METHOD(TestMixedVector)
+        TEST_METHOD(TestInputArray)
         {
-            vector<int> mixedVector = { 1, 2, 3, 4, 5 };
-            int result = sumOfOddElements(mixedVector);
-            Assert::AreEqual(9, result);
         }
     };
 }
